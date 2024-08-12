@@ -15,7 +15,7 @@ class Program4 {
         int sum = 0;
         for (int i = 0; i < args.length; i++) {
             sum += Integer.parseInt(args[i]);
-            System.out.print(" +" + args[i]);
+            System.out.print(args[i] + " + ");
         }
         System.out.println("\b\b  = " + sum);
     }
@@ -25,7 +25,7 @@ class Program4 {
  * Output:
  * 
  * $ javac Program4.java
- * $ java Program4 10 20 30 40
- * Sum of 10 + 20 + 30 + 40 = 100
+ * $ java Program4 12 23 34 45 56
+ * Sum of 12 + 23 + 34 + 45 + 56  = 170
  * 
  */

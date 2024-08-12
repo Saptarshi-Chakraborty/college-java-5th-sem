@@ -19,8 +19,8 @@ class Program2 {
 /*
  * Output:
  * 
- * javac Program2.java
- * java Program2 Hello 34 World
+ * $ javac Program2.java
+ * $ java Program2 Hello 34 World
  * Hello
  * 34
  * World
